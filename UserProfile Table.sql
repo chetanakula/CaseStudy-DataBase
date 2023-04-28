@@ -1,0 +1,13 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [UserID]
+      ,[UserName]
+      ,[UserEmail]
+      ,[UserPhoneNo]
+      ,[UserAddress]
+      ,[UserPassword]
+      ,[UserType]
+      ,[UserAccNo]
+      ,[UserIFSC]
+      ,[UserBankName]
+      ,[UserStatus]
+  FROM [CropDealDbTable].[dbo].[UserProfile]
